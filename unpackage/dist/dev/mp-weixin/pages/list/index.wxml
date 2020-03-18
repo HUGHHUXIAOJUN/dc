@@ -1,0 +1,1 @@
+<view class="w100 mh100 data-v-05dffdb6"><view class="tab-status _div data-v-05dffdb6" style="{{'height:'+(statusBarHeight+'px')+';'}}"></view><view class="wrap flex_r _div data-v-05dffdb6"><d-search class="flex1 data-v-05dffdb6" vue-id="1dd1a928-1" search="{{search}}" bind:__l="__l"></d-search></view><view class="list _div data-v-05dffdb6"></view></view>

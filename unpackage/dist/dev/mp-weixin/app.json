@@ -1,0 +1,45 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/list/index",
+    "pages/my/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "钉房",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#888E99",
+    "selectedColor": "#2F74FB",
+    "backgroundColor": "#FFFFFF",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "./static/image/tabbar-i1.png",
+        "selectedIconPath": "./static/image/tabbar-i1-on.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/list/index",
+        "iconPath": "./static/image/tabbar-i2.png",
+        "selectedIconPath": "./static/image/tabbar-i2-on.png",
+        "text": "新房"
+      },
+      {
+        "pagePath": "pages/my/index",
+        "iconPath": "./static/image/tabbar-i4.png",
+        "selectedIconPath": "./static/image/tabbar-i4-on.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "定位当前城市"
+    }
+  },
+  "usingComponents": {}
+}
